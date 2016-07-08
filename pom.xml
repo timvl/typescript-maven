@@ -15,7 +15,7 @@
                 <artifactId>frontend-maven-plugin</artifactId>
                 <version>1.0</version>
                 <configuration>
-                    <workingDirectory>src/main/frontend</workingDirectory>
+                    <workingDirectory>src/main/app</workingDirectory>
                     <installDirectory>target</installDirectory>
                 </configuration>
                 <executions>
@@ -26,7 +26,7 @@
                         </goals>
                         <configuration>
                             <nodeVersion>v6.3.0</nodeVersion>
-                            <npmVersion>1.4.9</npmVersion>
+                            <npmVersion>3.10.5</npmVersion>
                         </configuration>
                     </execution>
                     <execution>
