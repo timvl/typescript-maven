@@ -35,12 +35,12 @@
                             <goal>npm</goal>
                         </goals>
                     </execution>
-                    <!--<execution>-->
-                        <!--<id>grunt build</id>-->
-                        <!--<goals>-->
-                            <!--<goal>grunt</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
+                    <execution>
+                        <id>gulp build</id>
+                        <goals>
+                            <goal>gulp</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
