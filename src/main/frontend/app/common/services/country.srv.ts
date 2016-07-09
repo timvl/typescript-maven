@@ -10,7 +10,7 @@ import {CountryImpl} from "../models/country.impl";
 export class CountryService {
 
     private countryUrl = "https://restcountries.eu/rest/v1/all";
-    private  testCountryFile = "./respository/testCountryData.json";
+    private  testCountryFile = "./repository/testCountryData.json";
     constructor(private http:Http) {
 
     }
