@@ -15,7 +15,7 @@
                 <artifactId>frontend-maven-plugin</artifactId>
                 <version>1.0</version>
                 <configuration>
-                    <workingDirectory>src/main/app</workingDirectory>
+                    <workingDirectory>src/main/frontend</workingDirectory>
                     <installDirectory>target</installDirectory>
                 </configuration>
                 <executions>
@@ -36,9 +36,9 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>grunt build</id>
+                        <id>gulp build</id>
                         <goals>
-                            <goal>grunt</goal>
+                            <goal>gulp</goal>
                         </goals>
                     </execution>
                 </executions>
