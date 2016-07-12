@@ -16,5 +16,5 @@ gulp.task('compile', ['clean'], function () {
         .pipe(gulp.dest('js'));
 });
 
-gulp.task('build', ['compile']);
+gulp.task('build', ['clean', 'compile']);
 gulp.task('default', ['build']);
